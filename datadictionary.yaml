@@ -1,0 +1,91 @@
+---
+data_dictionary: gbsg.cvs
+
+copyright: >
+  Copyright: German Breast Cancer Study Group (1984-1989)
+  Redistributed via the Rdatasets project by Vincent Arel-Bundock under the 
+  GNU GPL-3 License.
+
+description: >
+  The gbsg data set contains patient records from a 1984-19889 trial conducted 
+  by The German Breast Cancer Study Group (GBSG) of 720 patients with node 
+  positive breast cancer; it retains the 686 patients with complete data from 
+  the prognotic variables.
+
+additional_description:
+  https://vincentarelbundock.github.io/Rdatasets/doc/survival/gbsg.html
+
+download_url:
+  https://vincentarelbundock.github.io/Rdatasets/csv/survival/gbsg.csv
+
+format:
+  csv: comma delimited
+
+varnames: 
+  Included in the first line
+  
+missing_value_code:
+  not needed
+  
+size:   
+  rows: 686
+  columns: 11
+
+vars:
+  pid:
+    label: Patient identifier
+    scale: non-negative real
+    
+  age:
+    label: Patient age
+    scale: non-negative real
+    unit: years
+
+  meno:
+    label: Menopausal status
+    value:
+      Premenopausal: 0
+      Postmenopausal: 1 
+
+  size:
+    label: Tumor size
+    scale: non-negative integer
+    unit: millemeters
+
+  grade:
+    label: Tumor grade 
+    values:
+      Grade 1: 1
+      Grade 2: 2
+      Grade 3: 3
+
+  nodes:
+    label: Number of positive lymph nodes
+    scale: non-negative integer
+    
+  pgr:
+    label: Progesterone receptors
+    scale: non-negative integer
+    unit: femtomoles per liter
+
+  er:
+    label: Estrogen receptors
+    scale: non-negative integer
+    unit: femtomoles per liter
+
+  hormon:
+    label: Hormonal therapy
+    value:
+      No: 0
+      Yes: 1 
+
+  rfstime:
+    label: Recurrence free survival time
+    scale: non-negative integer
+    unit: Days
+
+  status:
+    label: Patient survival status at the end of follow-up
+    value:
+      Alive without recurrence: 0
+      Recurrence or death: 1 
