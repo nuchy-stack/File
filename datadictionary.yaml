@@ -2,9 +2,9 @@
 data_dictionary: gbsg.cvs
 
 copyright: >
-  Copyright: German Breast Cancer Study Group (1984-1989)
-  Redistributed via the Rdatasets project by Vincent Arel-Bundock under the 
-  GNU GPL-3 License.
+  This dataset is from the Rdatasets collection by Vincent Arel-Brundock. 
+  and is distributed under the GNU GPL-3 License. The dataset was downloaded  
+  from the official GitHub repository.
 
 description: >
   The gbsg data set contains patient records from a 1984-19889 trial conducted 
@@ -92,4 +92,5 @@ vars:
     value:
       Alive without recurrence: 0
       Recurrence or death: 1 
+
 
