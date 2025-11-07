@@ -29,9 +29,12 @@ missing_value_code:
   
 size:   
   rows: 686
-  columns: 11
+  columns: 12
 
 vars:
+ rowname:
+   columns: 1
+ 
   pid:
     label: Patient identifier
     scale: non-negative real
@@ -89,3 +92,4 @@ vars:
     value:
       Alive without recurrence: 0
       Recurrence or death: 1 
+
