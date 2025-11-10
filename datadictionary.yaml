@@ -32,7 +32,7 @@ size:
   columns: 12
 
 vars:
- rowname:
+   rowname:
    columns: 1
  
   pid:
@@ -92,6 +92,7 @@ vars:
     value:
       Alive without recurrence: 0
       Recurrence or death: 1 
+
 
 
 
