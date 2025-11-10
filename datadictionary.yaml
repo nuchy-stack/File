@@ -1,16 +1,16 @@
 ---
-data_dictionary: gbsg.cvs
+data_dictionary: gbsg.csv
 
 copyright: >
-  This dataset is from the Rdatasets collection by Vincent Arel-Brundock. 
+  This dataset is from the Rdatasets collection by Vincent Arel-Bundock 
   and is distributed under the GNU GPL-3 License. The dataset was downloaded  
   from the official GitHub repository.
 
 description: >
-  The gbsg data set contains patient records from a 1984-19889 trial conducted 
-  by The German Breast Cancer Study Group (GBSG) of 720 patients with node 
-  positive breast cancer; it retains the 686 patients with complete data from 
-  the prognotic variables.
+  The GBSG data set contains patient records from a 1984-1989 trial conducted 
+  by the German Breast Cancer Study Group (GBSG) of 720 patients with 
+  node-positive breast cancer; it retains the 686 patients with complete data 
+  for the prognostic variables.
 
 additional_description:
   https://vincentarelbundock.github.io/Rdatasets/doc/survival/gbsg.html
@@ -19,10 +19,10 @@ download_url:
   https://vincentarelbundock.github.io/Rdatasets/csv/survival/gbsg.csv
 
 format:
-  csv: comma delimited
+  csv: comma-delimited
 
 varnames: 
-  Included in the first line
+  included in the first line
   
 missing_value_code:
   not needed
@@ -53,7 +53,7 @@ vars:
   size:
     label: Tumor size
     scale: non-negative integer
-    unit: millemeters
+    unit: millimeters
 
   grade:
     label: Tumor grade 
@@ -83,14 +83,15 @@ vars:
       Yes: 1 
 
   rfstime:
-    label: Recurrence free survival time
+    label: Recurrence-free survival time
     scale: non-negative integer
-    unit: Days
+    unit: days
 
   status:
     label: Patient survival status at the end of follow-up
     value:
       Alive without recurrence: 0
       Recurrence or death: 1 
+
 
 
